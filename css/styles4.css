@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(229, 158, 44);
+}
+.contenedor{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 7px 14px 26px white;
+}
+.imagenes{
+    background-size: 50% 50%;
+    width: 140%;
+    height: 600px;
+    position: relative;
+    left: 70px;
+    animation: siu 10s infinite;
+    background-repeat: no-repeat;
+    
+}
+@keyframes siu{
+    0%,20%{
+        background-image: url(../imagenes/cuadro1.jpg);
+    }
+    25%,40%{
+        background-image: url(../imagenes/cuadro3.jpg);
+    }
+    45%,70%{
+        background-image: url(../imagenes/cuadro4.jpg);
+    }
+    75%,100%{
+        background-image: url(../imagenes/cuadro2.jpg);
+    }
+}
+
+.formulario{
+    background-color: rgb(204, 222, 39);
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 7px 14px 23px hsl(3, 3%, 4%);
+}
+.cuadro{
+    color: rgb(27, 24, 24);
+    width: 100%;
+    margin-top: 17px;
+    padding: 8px;
+}
+.boton{
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+
+}

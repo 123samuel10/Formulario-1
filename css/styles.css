@@ -1,0 +1,82 @@
+body{
+    background: repeating-linear-gradient(blue,white,blue,black,blue,black);
+}
+
+.contenedor{
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 900px;
+    animation: siu 10s infinite;
+    position: relative;
+
+}
+@keyframes siu{
+    0%,20%{
+        background-image: url(../imagenes/1.webp);
+    }
+    25%,40%{
+        background-image: url(../imagenes/2.jpg);
+    }
+    45%,65%{
+          background-image: url(../imagenes/3.webp);
+   }
+   70%,100%{
+       background-image: url(../imagenes/4.jpg);
+   }
+}
+
+
+.formulario{
+    background-color: darkblue;
+    width: 400px;
+    height: 400px;
+   position: relative;
+   left: 400px;
+   top:200px;
+    padding: 36px;
+    text-align: center;
+    
+    border-radius: 5px;
+    box-shadow: 7px 14px 23px black;
+    color: white;
+}
+
+.cuadro{
+    width: 100%;
+    padding: 9px;
+    margin-top: 10px;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.boton{
+    width: 100%;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.paginas{
+background-color: darkcyan;
+position: relative;
+bottom: 130px;
+display: flex;
+
+}
+.paginas a{
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 380px;
+    color: white;
+font-size: 20px;
+
+}
+.paginas a:hover{
+    color: black;
+    background-color: darkgray;
+}
